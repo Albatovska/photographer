@@ -1,0 +1,15 @@
+section.about
+    .container
+        .title ABOUT ME
+        .about__inner
+            .conteiner
+                .row
+                    .col-4.offset-md-1
+                        img.about__image(src='../../images/photo camera.png')
+                    .col-5.offset-md-1    
+                        .about__description
+                            .about__description__text I love to take pictures of happy people and to focus on emotional ones and live photos. It's important for me that you feel comfortable and relaxed, like with a photographer. If my style of photography is close to you, I am pleased to get to know you better and discuss all the details of photography.
+                            - var items = ['Photoshop', 'Final cut', 'Studio photography', 'Emotions']
+                            ul.about__sckils__list
+                                each item in items
+                                    li.about__sckil= item

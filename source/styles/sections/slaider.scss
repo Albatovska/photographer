@@ -1,0 +1,24 @@
+.hero {
+    min-height: 840px;
+    background-image: url(../../images/devushka-fotoapparat.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+    color: #FFFFFF;
+    &__about {
+        display: block;
+        padding-top: 250px;
+        padding-left: 51px;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.02em;
+    }
+    &__border {
+        position: relative;
+        height: 159px;
+        left: 0px;
+        top: -128px;
+        background-color: #FFFFFF;
+        background: url(../../images/cat.png) repeat;
+    }
+}

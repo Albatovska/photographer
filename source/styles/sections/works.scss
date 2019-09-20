@@ -1,0 +1,49 @@
+.works {
+    .container {
+        max-width: 1175px;
+    }
+    &__inner {
+        background-image: url(../../images/cat2.png);
+        padding: 0;
+        margin: 0;
+    }
+    .title_white {
+        padding: 243px 0 54px;
+    }
+    &__bottom {
+        background: url("../../images/cat\ 3.png");
+        height: 212px;
+        position: relative;
+        top: 10px;
+        margin-bottom: 15px;
+    }
+}
+
+.works__block {
+    display: flex;
+    margin-bottom: 130px;
+    &__block {
+        display: flex;
+    }
+    &__item {
+        width: 381px;
+        margin-right: 20px;
+    }
+    &__image {
+        max-width: 381px;
+        max-height: 540px;
+    }
+    &__btn {
+        display: block;
+        width: 180px;
+        height: 42px;
+        border: 1px solid #ffffff;
+        color: #FFFFFF;
+        margin: 30px auto 0;
+        background-color: Transparent;
+        cursor: pointer;
+        &:active {
+            border: 1px solid #c0c0c0;
+        }
+    }
+}

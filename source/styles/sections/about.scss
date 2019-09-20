@@ -1,0 +1,39 @@
+.about {
+    font-family: $ff-main;
+    line-height: 27px;
+    letter-spacing: 0.03em;
+    position: relative;
+    top: -70px;
+    &__inner {
+        margin-top: 53px;
+    }
+    &__image {
+        background: rgba(0, 0, 0, 0.15);
+        filter: grayscale(100%);
+        transition: .5s ease-in-out;
+        &:hover {
+            filter: grayscale(0%);
+        }
+    }
+    .col-5 {
+        padding: 0 0 0 10px
+    }
+    &__description__text {
+        color: #000000;
+        min-width: 480px;
+        font-size: 16px;
+        line-height: 27px;
+        letter-spacing: 0.076em;
+    }
+    &__sckils__list {
+        min-width: 550px;
+        padding: 31px 0 0 0;
+    }
+    &__sckil {
+        font-size: 1rem;
+        font-family: $ff-main;
+        margin-bottom: 25px;
+        border-bottom: 1.5px solid black;
+        color: #504949;
+    }
+}

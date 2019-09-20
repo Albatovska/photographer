@@ -1,0 +1,24 @@
+sections.contact
+  .container
+    .title CONTACT ME
+    .contact__inner
+      .contact__inner__item
+        .contact__inner__item-image
+          img(src="../../images/iconc_contact/phone.png")
+        a(href="+380938366537")  +38(093) 836 65 37
+      .contact__inner__item
+        .contact__inner__item-image
+          img(src="../../images/iconc_contact/mail.png")
+        span  Mawyta89@ukr.net
+      .contact__inner__item
+        .contact__inner__item-image
+          img(src="../../images/iconc_contact/location.png")
+        span Kiev, Ukraine   
+    form.send-form(action="#")
+      label Name
+        input(name="name" required type='text')
+      label Email
+        input(name="emaile" required type="email")
+      label Message 
+        textarea(name="message")
+      button Send message   

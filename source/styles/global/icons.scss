@@ -1,0 +1,21 @@
+.icon {
+    margin: auto auto 23px auto;
+}
+
+.icon-famely {
+    @include sprite ($famely);
+}
+
+.icon-weddings {
+    @include sprite ($weddings);
+}
+
+.icon-portraits {
+    @include sprite ($portraits);
+    margin: 0 auto;
+}
+
+.icon-pregnancy {
+    @include sprite ($pregnancy);
+    margin: 0 auto;
+}

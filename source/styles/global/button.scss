@@ -1,0 +1,14 @@
+.button {
+    display: inline-block;
+    border-radius: 3px;
+    padding: 10px, 22px, 7px;
+    text-decoration: none;
+    background: #5B5151;
+    color: #fff;
+    &:hover {
+        background: lighten( #5B5151, 10%);
+    }
+    &--black {
+        background: black;
+    }
+}
